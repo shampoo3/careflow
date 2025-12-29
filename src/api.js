@@ -1,9 +1,14 @@
 const API_URL = "http://localhost:5000/patients";
 
 export const getPatients = async () => {
-  const res = await fetch(API_URL);
-  return res.json();
+  try {
+    const res = await fetch("http://localhost:3001/patients");
+    return await res.json();
+  } catch {
+    return [];
+  }
 };
+
 
 export const addPatientAPI = async (patient) => {
   const res = await fetch(API_URL, {
