@@ -1,0 +1,34 @@
+{
+  "patients": [
+    {
+      "id": "1",
+      "name": "Ananya Sharma",
+      "condition": "Diabetes",
+      "priority": "Critical",
+      "doctor": "Dr. Banerjee",
+      "lastVisit": "2024-12-15",
+      "createdAt": "2024-12-01T10:30:00Z",
+      "updatedAt": "2025-12-29T18:14:36.220Z"
+    },
+    {
+      "id": "749c",
+      "name": "Moupriya Das",
+      "condition": "PCOS",
+      "priority": "Stable",
+      "doctor": "Dr. Sharma",
+      "lastVisit": "2025-12-29",
+      "createdAt": "2025-12-29T17:14:03.080Z",
+      "updatedAt": "2025-12-29T17:42:08.618Z"
+    },
+    {
+      "id": "64d0",
+      "name": "Arkya Sant",
+      "condition": "Arthiritis",
+      "priority": "Moderate",
+      "doctor": "Dr. Mehta",
+      "lastVisit": "2025-12-29",
+      "createdAt": "2025-12-29T18:17:24.409Z",
+      "updatedAt": "2025-12-29T18:27:13.957Z"
+    }
+  ]
+}
